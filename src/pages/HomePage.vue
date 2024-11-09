@@ -16,6 +16,23 @@ import RoomCard from "../components/RoomCard.vue";
       </div>
 
       <!-- Search Section -->
+      <div class="flex justify-between items-center mb-2 border rounded-lg  p-5 font-semibold ">
+        <div class="">
+         <p>Check-in Date</p>
+
+
+
+        </div>
+        <div class="">
+          <p>Check-out Date</p>
+        </div>
+        <div>
+          <p>Number of Guests</p>
+        </div>
+        <div>
+          <p>Check Availability</p>
+        </div>
+      </div>
 
       <!-- Rooms Section -->
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
